@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WhatsApp Enhancer — Chat Folders, Blur & PIN Lock for WhatsApp Web</title>
+    <meta name="description" content="Free Chrome extension that sorts WhatsApp Web chats into Work and Personal spaces, blurs messages from shoulder-surfers, hides chats, and PIN-locks private spaces. 100% local.">
+    <link rel="canonical" href="https://fenwicklabs.com/spaceguard/">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ff4967">
+    <meta property="og:site_name" content="Fenwick Labs">
+    <meta property="og:title" content="WhatsApp Enhancer — Separate Work and Personal chats on WhatsApp Web">
+    <meta property="og:description" content="Chat folders, privacy blur, hidden chats, and PIN-locked spaces for WhatsApp Web. Free, local-first Chrome extension.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fenwicklabs.com/spaceguard/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="WhatsApp Enhancer — chat spaces, blur and lock">
+    <meta name="twitter:description" content="Separate Work and Personal chats, blur messages, and PIN-lock private spaces. Free and local-first.">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "WhatsApp Enhancer",
+        "applicationCategory": "BrowserApplication",
+        "operatingSystem": "Chrome, Edge, Brave",
+        "description": "Chrome extension that organizes WhatsApp Web chats into Work, Personal, and custom spaces, blurs sensitive content, hides chats, and PIN-locks private spaces. All processing stays on the device.",
+        "url": "https://fenwicklabs.com/spaceguard/",
+        "author": { "@type": "Organization", "name": "Fenwick Labs" },
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "featureList": [
+          "Work and Personal chat spaces for WhatsApp Web",
+          "Full-screen space chooser when WhatsApp Web opens",
+          "Privacy shield that blurs names, messages, and media",
+          "Per-space PIN lock and automatic lock",
+          "Hidden chats vault",
+          "Material You accent colors in light and dark themes"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I separate work and personal chats on WhatsApp Web?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Install WhatsApp Enhancer, open WhatsApp Web, and pick a space. Use the ••• button on any chat to add it to Work, Personal, or a custom space. General keeps showing every chat." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I lock or hide chats on WhatsApp Web?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Give any space its own 4–8 digit PIN, move chats to a Hidden vault, and turn on automatic lock after inactivity or when you switch tabs." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does WhatsApp Enhancer read or upload my messages?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. WhatsApp Enhancer runs only on web.whatsapp.com and stores its settings in your browser. It never collects or transmits messages, media, or contacts." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is WhatsApp Enhancer free?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every current feature is free. A Pro plan is in development; nothing that is free today will move behind it." }
+          }
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="#top"><span>W</span>WhatsApp Enhancer</a>
+      <nav aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#privacy">Privacy</a>
+        <a class="nav-cta" href="#install">Get WhatsApp Enhancer</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">Privacy, directed by you</div>
+          <h1>Your chats.<br>Separate rooms.</h1>
+          <p>See every chat in General, then add conversations to Personal, Work, or custom focused spaces.</p>
+          <div class="actions">
+            <a class="button primary" href="#install">Add to Chrome</a>
+            <a class="button" href="#how">See the privacy flow</a>
+          </div>
+          <small>Local-only · Manifest V3 · No message collection</small>
+        </div>
+        <div class="product-shot" aria-label="Illustration of WhatsApp Enhancer organizing chats">
+          <div class="shot-top"><b>W</b><span class="active">G General</span><span>P Personal</span><span>W Work</span></div>
+          <div class="shot-body">
+            <aside>
+              <div><i>A</i><span><b>Alex</b><small>Dinner at eight?</small></span></div>
+              <div><i>M</i><span><b>Maya</b><small>Trip photos</small></span></div>
+              <div class="blurred"><i>W</i><span><b>Work team</b><small>Hidden here</small></span></div>
+            </aside>
+            <article><span class="shield">◐</span><h2>General is showing</h2><p>Every non-hidden chat remains available here.</p></article>
+          </div>
+          <div class="beam"></div>
+        </div>
+      </section>
+
+      <section class="proof" aria-label="Product trust">
+        <div><strong>1</strong><span>site permission</span></div>
+        <div><strong>0</strong><span>messages collected</span></div>
+        <div><strong>100%</strong><span>local organization</span></div>
+      </section>
+
+      <section class="features" id="how">
+        <header><div class="eyebrow">A calmer WhatsApp Web</div><h2>Privacy that matches where you are.</h2></header>
+        <article><span>01</span><div><h3>Start with everything</h3><p>General always shows every non-hidden chat. Add conversations to Personal, Work, or custom focused views in one click.</p></div></article>
+        <article><span>02</span><div><h3>Move without losing anything</h3><p>Assign, reassign, hide, or reveal chats from the list. WhatsApp Enhancer changes visibility—not your WhatsApp data.</p></div></article>
+        <article><span>03</span><div><h3>Lock only what needs protecting</h3><p>Give each sensitive space its own PIN, then use inactivity, tab-switch, presentation, or instant privacy controls.</p></div></article>
+      </section>
+
+      <section class="privacy" id="privacy">
+        <div><div class="eyebrow">Local-first architecture</div><h2>Your conversations never become our dataset.</h2></div>
+        <p>WhatsApp Enhancer reads only enough rendered chat-list structure to apply your organization rules. It does not store or transmit message bodies, media, call audio, or video.</p>
+      </section>
+
+      <section class="plans" id="plans" aria-labelledby="plans-title">
+        <header><div class="eyebrow">Plans</div><h2 id="plans-title">Free today. Pro is coming.</h2></header>
+        <div class="plan-grid">
+          <article class="plan current">
+            <h3>Free <span>Available now</span></h3>
+            <ul>
+              <li>Unlimited chats in General, Personal, Work, and custom spaces</li>
+              <li>Full-screen space chooser when WhatsApp Web opens</li>
+              <li>Privacy shield with blur, peek, and presentation mode</li>
+              <li>Per-space PINs and automatic lock</li>
+              <li>Hidden-chat vault and Material You colors</li>
+            </ul>
+            <a class="button primary" href="#install">Add to Chrome — free</a>
+          </article>
+          <article class="plan">
+            <h3>Pro <span>Coming soon</span></h3>
+            <ul>
+              <li>Scheduled spaces that switch with your working hours</li>
+              <li>A different accent color for every space</li>
+              <li>On-device focus insights</li>
+              <li>Priority email support</li>
+            </ul>
+            <p class="plan-note">Nothing that is free today will move to Pro.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq" id="faq" aria-labelledby="faq-title">
+        <header><div class="eyebrow">Questions</div><h2 id="faq-title">WhatsApp Web privacy, answered.</h2></header>
+        <details><summary>How do I separate work and personal chats on WhatsApp Web?</summary><p>Install WhatsApp Enhancer, open WhatsApp Web, and pick a space. Use the ••• button on any chat to add it to Work, Personal, or a custom space. General keeps showing every chat.</p></details>
+        <details><summary>Can I lock or hide chats on WhatsApp Web?</summary><p>Yes. Give any space its own 4–8 digit PIN, move chats to a Hidden vault, and turn on automatic lock after inactivity or when you switch tabs.</p></details>
+        <details><summary>Does WhatsApp Enhancer read or upload my messages?</summary><p>No. WhatsApp Enhancer runs only on web.whatsapp.com and stores its settings in your browser. It never collects or transmits messages, media, or contacts.</p></details>
+        <details><summary>Is WhatsApp Enhancer free?</summary><p>Yes. Every current feature is free. A Pro plan is in development; nothing that is free today will move behind it.</p></details>
+      </section>
+
+      <section class="install" id="install">
+        <div class="brand-icon">W</div>
+        <h2>Set the room before messages arrive.</h2>
+        <p>The Chrome Web Store listing will appear here after first approval.</p>
+        <a class="button primary" href="support.html">Get launch updates</a>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2026 Fenwick Labs</span>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="refund.html">Refund Policy</a>
+        <a href="support.html">Support</a>
+      </nav>
+      <p>WhatsApp Enhancer is independent and is not affiliated with or endorsed by WhatsApp or Meta.</p>
+    </footer>
+  </body>
+</html>
